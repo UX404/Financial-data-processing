@@ -7,7 +7,7 @@ def tbd(filename: str):
         reader = csv.reader(file)
         for row in reader:
             data.append(row)
-    #---------------padding---------------
+    #-------------compute_TBD-------------
     newdata = []
     newdata.append(data[0] + ['TBD'])
     current_id, n_initial = '-1', -1

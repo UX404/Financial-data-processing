@@ -1,5 +1,5 @@
 class DateCounter():
-    def __init__(self, date):  # date: '2021-06-05'
+    def __init__(self, date):  # date: '2021/06/05'
         date = date.split('/')
         self.year = int(date[0])
         self.month = int(date[1])
@@ -19,7 +19,6 @@ class DateCounter():
         elif (self.day == 29) and (self.month == 2) and not ((self.year % 100 != 0 and self.year % 4 == 0) or self.year % 400 == 0):
             self.month += 1
             self.day = 1
-        
         # month++
         if (self.month == 13):
             self.year += 1
