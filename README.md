@@ -1,11 +1,11 @@
 # Financial-data-processing
 Python files to process finantial data.
 
-## 20210605 data processing
+## 20210605 Data Processing
 Process Data to fit the date order.
 Add an additional precise feature generated from the original data.
 
-## 20210617 random forest / rearranged files
+## 20210617 Random Forest / Rearrange Files
 Analyzing the data, there's a obvious problem of data imbalance, with 59881 false data and 446 true data.
 
 Thus, the entire dataset is processed in this way:
